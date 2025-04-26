@@ -1,0 +1,23 @@
+:root {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+#time-container {
+    display: flex;
+    max-width: 20%;
+    margin: 20vh auto;
+    gap: 50px;
+    height: 50vh;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+}
+
+.time {
+    height: 50px;
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
